@@ -1,0 +1,46 @@
+{
+  "name": "cordova-gallery-api",
+  "version": "1.0.0",
+  "description": "Cordova Plugin To Get Images Gallery",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ishigo1987/cordova-gallery-api"
+  },
+  "bugs": {
+    "url": "https://github.com/ishigo1987/cordova-gallery-api/issues"
+  },
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint demo/www"
+  },
+  "cordova": {
+    "id": "cordova-gallery-api",
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "device",
+    "ecosystem:cordova",
+    "gallery",
+    "pictures"
+  ],
+  "author": "Nguetseng Stephane",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "4.0.0": {
+        "cordova": ">100"
+      }
+    }
+  }
+}
